@@ -214,8 +214,14 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
-  color: #fff;
+  color: #ffffff;
 }
+
+#fh5co-header .display-tc .fh5co-social-icons li a:hover,
+.fh5co-cover .display-tc .fh5co-social-icons li a:hover {
+  color: #47202E; /* Change to the color you want on hover */
+}
+
 #fh5co-header .display-tc .fh5co-social-icons li a i,
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
   font-size: 30px;
