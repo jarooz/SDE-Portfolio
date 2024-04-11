@@ -326,6 +326,14 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 90%;
   float: left;
 }
+.info a {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+.info a:hover {
+  color: #FF9000;
+  text-decoration: none;
+}
 @media screen and (max-width: 768px) {
   .info {
     margin-bottom: 3em;
@@ -344,7 +352,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 40%;
   display: inline-block;
   float: left;
-  color: #000;
+  color: #000000;
   font-weight: bold;
 }
 .info li .second-block {
@@ -1282,6 +1290,9 @@ input[type="text"] {
   margin: 0px !important;
 }
 
+.col-md-8 {
+  margin-bottom: 10px !important;
+}
 .fh5co-loader {
   position: fixed;
   left: 0px;
