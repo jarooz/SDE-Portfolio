@@ -217,10 +217,22 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #ffffff;
 }
 
-#fh5co-header .display-tc .fh5co-social-icons li a:hover,
-.fh5co-cover .display-tc .fh5co-social-icons li a:hover {
-  color: #47202E; /* Change to the color you want on hover */
+#fh5co-header .display-tc .fh5co-social-icons  li .icon-linkedin2:hover,
+.fh5co-cover .display-tc .fh5co-social-icons  li .icon-linkedin2:hover {
+  color: #0072b1; /* Change to the color you want on hover */
 }
+
+#fh5co-header .display-tc .fh5co-social-icons  li .icon-github2:hover,
+.fh5co-cover .display-tc .fh5co-social-icons  li .icon-github2:hover {
+  color: #000000; /* Change to the color you want on hover */
+}
+
+
+#fh5co-header .display-tc .fh5co-social-icons  li .icon-instagram:hover,
+.fh5co-cover .display-tc .fh5co-social-icons  li .icon-instagram:hover {
+  color: #833AB4; /* Change to the color you want on hover */
+}
+
 
 #fh5co-header .display-tc .fh5co-social-icons li a i,
 .fh5co-cover .display-tc .fh5co-social-icons li a i {
@@ -418,6 +430,9 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about .fh5co-social-icons li a:hover {
   background: #47202E;
 }
+
+
+
 
 .fh5co-heading {
   margin-bottom: 5em;
@@ -682,20 +697,8 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   box-shadow: none;
 }
-.progress-bar.progress-bar-1 {
-  background-color: #2980b9 !important;
-}
-.progress-bar.progress-bar-2 {
-  background-color: #c0392b !important;
-}
-.progress-bar.progress-bar-3 {
-  background-color: #d35400 !important;
-}
-.progress-bar.progress-bar-4 {
-  background-color: #8e44ad !important;
-}
-.progress-bar.progress-bar-5 {
-  background-color: #27ae60 !important;
+.progress-bar {
+  background-color: #47202E !important;
 }
 
 .chart {
