@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="fade-out">
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="/images/Contact page.jpg" alt="Contact Banner" class="banner-image">
+        <div class="banner-text">
+            <h1>Get in Touch</h1>
+            <p>If you would like to reach out, feel free to drop a message. I’ll get back to you shortly.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <form id="contactForm" action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                </div>
+                <button type="submit" class="btn contact-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
