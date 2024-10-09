@@ -1461,6 +1461,12 @@ main.fade-out {
     font-weight: 500;
 }
 
+.photography .photo-gallery {
+    width: 100%; /* Full width */
+    padding: 0; /* Remove padding if necessary */
+    margin: 0; /* Remove margin */
+}
+
 .photography .container h2 
 {
     font-weight: 500;
@@ -1470,9 +1476,10 @@ main.fade-out {
 
 .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjust the column width */
-    grid-auto-rows: 10px; /* This creates a baseline row height */
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* Adjust column width */
     gap: 10px; /* Space between items */
+    width: 100%; /* Full width */
+    padding: 0 10px; /* Optional: Add padding for spacing */
 }
 
 .photo-gallery img {
