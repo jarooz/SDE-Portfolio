@@ -44,8 +44,17 @@ a:hover {
     padding: 20px 20px;
     max-width: 900px;
     margin: 0 auto;
-    text-align: center;
     margin-bottom: 20px;
+    justify-content: center; /* Centers the form horizontally */
+
+}
+
+.contact .container {
+    width: 100%;
+    max-width: 600px; /* Limits the maximum width of the form */
+    padding: 20px; /* Adds uniform padding around the form */
+    margin: 0 auto; /* Centers the container horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
 }
 
 .contact h2 {
@@ -66,7 +75,8 @@ a:hover {
     flex-direction: column;
     gap: 20px;
     max-width: 600px;
-    margin: 0 auto;
+    margin-top: -65px;
+    margin-left: 100px;
 }
 
 .form-group {
@@ -1582,7 +1592,7 @@ main.fade-out {
 .banner {
     position: relative;
     width: 100%;
-    height: 390px; /* Adjust height as needed */
+    height: 400px; /* Adjust height as needed */
     overflow: hidden;
 }
 
@@ -1591,6 +1601,7 @@ main.fade-out {
     height: 100%;
     object-fit: cover; /* Ensures the image covers the entire section */
     filter: brightness(70%); /* Optional: Darken the image for text readability */
+    margin-top: -24px;
 }
 
 .banner-text {
@@ -1600,29 +1611,34 @@ main.fade-out {
     transform: translate(-50%, -50%);
     color: #fff;
     text-align: center;
+    margin-top: -50px;
 }
 
 .banner-text h1 {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 3vw;
+    font-weight: 600;
     margin: 0;
 }
 
 .banner-text p {
-    font-size: 1.4rem;
-    text-wrap: nowrap;
+    font-size: 1.7vw;
     font-weight: 400;
     margin: 0;
+    width: 100%;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .banner {
-        height: 200px; /* Adjust height for smaller screens */
+        height: 400px; /* Adjust height for smaller screens */
     }
 
     .banner-text h1 {
-        font-size: 2rem;
+        font-size: 3vw;
+    }
+
+    .banner-text p {
+        font-size: 2vw;
     }
 }
 
